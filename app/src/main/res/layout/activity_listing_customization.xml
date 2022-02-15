@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListingCustomization">
+
+    <EditText
+        android:id="@+id/dates2"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="472dp"
+        android:hint="Feb 3rd - 8th"
+        android:inputType="date"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date(s):"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <EditText
+        android:id="@+id/opening1"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:hint="11:00 am - 2:30 pm"
+        android:inputType="time"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dates1"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="344dp"
+        android:hint="Jan 1st - 5th"
+        android:inputType="date"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dates"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="424dp"
+        android:hint="Jan 10th - 20th"
+        android:inputType="date"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/opening2"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        android:hint="3:00 pm - 4:00 pm"
+        android:inputType="time"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/opening3"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="288dp"
+        android:hint="9:15 pm - 10:45 pm"
+        android:inputType="time"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textOpenings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opening(s):"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textOpenings2"
+        android:layout_width="187dp"
+        android:layout_height="25dp"
+        android:text="More openings (optional):"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textMoredates"
+        android:layout_width="187dp"
+        android:layout_height="25dp"
+        android:text="More dates (optional):"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <Button
+        android:id="@+id/buttonContinue3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <TextView
+        android:id="@+id/textCustomize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listing Customization:"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

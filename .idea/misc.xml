@@ -7,9 +7,12 @@
         <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout-w936dp/activity_login.xml" value="0.27049180327868855" />
         <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_choose_listing.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_create_account.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_listing_details.xml" value="0.25" />
+        <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_listing_customization.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_listing_details.xml" value="0.33" />
+        <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_listing_images.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_main_screen.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Garrett/Documents/pavin-haven/app/src/main/res/layout/activity_pay_method.xml" value="0.358695652173913" />
       </map>
     </option>

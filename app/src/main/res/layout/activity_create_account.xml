@@ -112,6 +112,6 @@
         android:layout_height="45dp"
         android:text="Agree to terms & Create"
         tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="511dp" />
+        tools:layout_editor_absoluteY="620dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

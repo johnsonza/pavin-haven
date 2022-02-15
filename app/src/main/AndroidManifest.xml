@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PavinHaven">
         <activity
+            android:name=".MainScreen"
+            android:exported="false"
+            android:label="@string/title_activity_main_screen" />
+        <activity
+            android:name=".ListingCustomization"
+            android:exported="false" />
+        <activity
+            android:name=".ListingImages"
+            android:exported="false" />
+        <activity
             android:name=".ListingDetails"
             android:exported="false" />
         <activity

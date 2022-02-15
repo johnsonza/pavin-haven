@@ -6,23 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".ListingDetails">
 
-    <TextView
-        android:id="@+id/textDate"
+    <Button
+        android:id="@+id/buttonContinue2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date:"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="248dp" />
+        android:text="Continue"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="613dp" />
 
     <TextView
-        android:id="@+id/textTime"
+        android:id="@+id/textCity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Time(s):"
+        android:text="Location:"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="296dp" />
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="152dp" />
 
     <TextView
         android:id="@+id/textListingdetails"
@@ -34,22 +33,13 @@
         tools:layout_editor_absoluteY="58dp" />
 
     <TextView
-        android:id="@+id/textCity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Location:"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="152dp" />
-
-    <TextView
         android:id="@+id/textPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Price: $"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="200dp" />
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="204dp" />
 
     <EditText
         android:id="@+id/location"
@@ -68,7 +58,7 @@
         android:id="@+id/price"
         android:layout_width="183dp"
         android:layout_height="40dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="204dp"
         android:hint="$$.$$"
         android:inputType="number"
         android:selectAllOnFocus="true"
@@ -78,28 +68,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/dates"
-        android:layout_width="183dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="248dp"
-        android:hint="day-month-year"
-        android:inputType="date"
-        android:selectAllOnFocus="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.802"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/TextTextDescription"
+        android:layout_width="356dp"
+        android:layout_height="173dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Description"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="254dp" />
 
-    <EditText
-        android:id="@+id/times"
-        android:layout_width="183dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="296dp"
-        android:hint="start - end"
-        android:inputType="time"
-        android:selectAllOnFocus="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.802"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
